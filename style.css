@@ -1,0 +1,12 @@
+html {
+    background-color: #89CFF0;
+    text-align: center;
+  }
+  
+  h1 {
+    text-shadow: 1px 1px 1px;
+  }
+
+  img {
+      border: 2px double dodgerblue;
+  }
