@@ -1,12 +1,47 @@
 html {
     background-color: #89CFF0;
     text-align: center;
+    line-height: 1.5em;
   }
   
   h1 {
-    text-shadow: 1px 1px 1px;
+    text-shadow: 2px 2px 2px wheat;
   }
   span {
     display: flex;
     justify-content: space-around;
   }
+
+  nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.17em;
+    background-color: coral;
+  }
+
+  #navbar{
+   height: 5vh;
+   position: fixed;
+   top: 0;
+   width: 100%;
+  }
+
+  #welcome-section {
+    margin-top: 10vh;
+  }
+
+  #profile-link {
+    font-size: 3em;
+  }
+
+  #profile-link i {
+    margin: .5em;
+  }
+
+  @media only screen and (max-width: 600px) {
+    span {
+      display: flex;
+      flex-direction: column;
+    }
+    }
